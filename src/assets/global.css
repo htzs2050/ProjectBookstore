@@ -1,0 +1,143 @@
+body {
+    margin:0;
+    padding: 0;
+    background-color: #fbfbfb ;
+}
+* {
+    box-sizing: border-box;
+    text-decoration: none ;
+}
+/*nav router-link{*/
+
+/*}*/
+div{
+    display: block;
+
+}
+.container {
+    margin: 0 auto;
+}
+.top {
+    height: 75px;
+    line-height: 60px;
+    background-color: #0099FF;
+}
+.top .banner {
+   background-color: #fff;
+    height: 100%;
+    margin: auto;
+    width:85%;
+
+}
+/* .top img {
+    width: 40px;
+    position: relative;
+    top:10px;
+} */
+
+.top span {
+   
+    font-size: 20px;
+    /*font: 10em;*/
+    
+}
+.top_nav {
+    background-color: #ffffff;
+    float: left;
+    
+    width: 60%;
+    height: 100%;
+}
+.top_nav .el-menu {
+    margin: 0%;
+    height: auto;
+    background-color: #00b7ff;
+}
+::v-deep .el-menu-item {
+	height: 45px;
+	line-height: 45px;
+}
+::v-deep .el-submenu__title{
+	height: 45px;
+	line-height: 45px;
+}
+.research {
+    margin-left:60%;
+    height: 100%;
+    display: block;
+    background-color: aquamarine;
+   
+}
+
+.navgation{
+    display: flex;
+}
+
+/*.na-menu{*/
+/*   width: 200px;*/
+/*   overflow: hidden;*/
+/*   background-color: white ;*/
+/*   !* overflow 是 CSS 的简写属性，其设置了元素溢出时所需的行为——即当元素的内容太大而无法适应它的块级格式化上下文时。  *!*/
+/*}*/
+
+#rotate ,#rotato{
+   height: 450px;
+   position: relative;
+   
+}
+.el-carousel__item h3 {
+
+    color: #475669;
+    font-size: 14px;
+    opacity: 0.75;
+    line-height: 150px;
+    margin: 0;
+  }
+  
+  .el-carousel__item:nth-child(2n) {
+    background-color: #99a9bf;
+  }
+  
+  .el-carousel__item:nth-child(2n+1) {
+    background-color: #d3dce6;
+  }
+  
+#stand {
+    margin-top: 20px;
+    position: relative;
+    float: flex;
+    height: 300px;
+    width: 80%;
+}
+
+.card {
+    float: flex;
+    margin: 0px;
+    position: relative;
+    padding: 0px;
+    height: 200px;
+   
+    
+  }
+#card .el-card {
+    height: 220px;
+    margin-bottom: 5px;
+}
+
+.el-card__body ,.el-main{
+    margin: 0px;
+    padding: 0px;
+}
+.logo_img{
+    height: 135px;
+    width: 150px;
+    margin: 0;
+    padding-top: 20px;
+    padding-left: 50px;
+}
+.logo_text{
+    text-align: center;
+    font-size: large;
+    padding-top: 0px;
+    /* font-family:fantasy; */
+}
